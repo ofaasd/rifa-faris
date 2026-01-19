@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Wedding of Syarifah & Achmad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importing Arabic font (Amiri), Cursive (Great Vibes), and Clean Sans (Plus Jakarta Sans) -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              islamic: {
+                50: '#BDE8F5',  /* Sky 50 - UPDATED */
+                100: '#e0f2fe', /* Sky 100 */
+                200: '#bae6fd', /* Sky 200 */
+                300: '#7dd3fc', /* Sky 300 */
+                400: '#38bdf8', /* Sky 400 */
+                500: '#0ea5e9', /* Sky 500 */
+                600: '#0284c7', /* Sky 600 */
+                700: '#0369a1', /* Sky 700 */
+                800: '#075985', /* Sky 800 */
+                900: '#0c4a6e', /* Sky 900 */
+                gold: '#0F2854',
+              }
+            },
+            fontFamily: {
+              arabic: ['Amiri', 'serif'],
+              script: ['Great Vibes', 'cursive'],
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+            },
+            backgroundImage: {
+              'pattern': "url('https://www.transparenttextures.com/patterns/arabesque.png')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+      body {
+        background-color: #BDE8F5;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.24.7",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "firebase/app": "https://esm.sh/firebase@10.8.1/app",
+    "firebase/firestore": "https://esm.sh/firebase@10.8.1/firestore",
+    "firebase/": "https://esm.sh/firebase@^12.7.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
