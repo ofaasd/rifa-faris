@@ -44,7 +44,7 @@ export const EventDetails: React.FC = () => {
               <div className="flex items-center gap-1"><Calendar size={14} /> 28 Maret 2026</div>
             </div>
             <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans">
-              <div className="flex items-center gap-1"><Clock size={14} /> 11:00 - Selesai</div>
+              <div className="flex items-center gap-1"><Clock size={14} /> 11:00 - 13.00 WIB</div>
             </div>
             <p className="text-sm text-[#0F2854] font-sans leading-relaxed">
               Jl. Merpati Tengah I no. 23 <br />

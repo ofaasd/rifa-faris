@@ -40,9 +40,9 @@ export const CoupleInfo: React.FC = () => {
             />
           </div>
         </div>
-        <h2 className="font-script text-4xl text-islamic-800 mb-2">Syarifah Mumtazah</h2>
-        <p className="font-sans text-sm text-gray-600 font-medium">Putri Kedua dari</p>
-        <p className="font-sans text-sm text-gray-800 font-bold mt-1">Bapak Muhamad Sholihin <br /> & Ibu Roudhotul Maghfiroh</p>
+        <h2 className="font-script text-4xl text-islamic-800 mb-2">Syarifah Mumtazah ( Syarifah )</h2>
+        <p className="font-sans text-sm text-gray-600 font-medium">Putri dari</p>
+        <p className="font-sans text-sm text-gray-800 font-bold mt-1">Bapak Muhamad Solihin, A.Md RO <br /> & Ibu Roudhotul Maghfiroh</p>
       </div>
 
       <div className="font-script text-4xl text-islamic-gold my-4">&</div>
@@ -58,8 +58,8 @@ export const CoupleInfo: React.FC = () => {
             />
           </div>
         </div>
-        <h2 className="font-script text-4xl text-islamic-800 mb-2">Achmad Fariz Ridwan</h2>
-        <p className="font-sans text-sm text-gray-600 font-medium">Putra Kedua dari</p>
+        <h2 className="font-script text-4xl text-islamic-800 mb-2">Ahmad Fariz Ridwan ( Fariz ) </h2>
+        <p className="font-sans text-sm text-gray-600 font-medium">Putra dari</p>
         <p className="font-sans text-sm text-gray-800 font-bold mt-1">Bapak Muhammad Faruq (Alm.) <br /> & Ibu Fatimah</p>
       </div>
     </Section>
