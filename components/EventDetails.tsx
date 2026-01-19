@@ -26,7 +26,7 @@ export const EventDetails: React.FC = () => {
               (Optik Mishbaach)
             </p>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Jl.+Merpati+Tengah+I+no.+23"
+              href="https://maps.app.goo.gl/6UpZATPv79UM5Y2j6?g_st=aw"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-islamic-700/20 text-[#0F2854] rounded-full text-xs font-bold hover:bg-islamic-700/30 transition-colors"
@@ -51,7 +51,7 @@ export const EventDetails: React.FC = () => {
               (Optik Mishbaach)
             </p>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Jl.+Merpati+Tengah+I+no.+23"
+              href="https://maps.app.goo.gl/6UpZATPv79UM5Y2j6?g_st=aw"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-islamic-700/20 text-[#0F2854] rounded-full text-xs font-bold hover:bg-islamic-700/30 transition-colors"

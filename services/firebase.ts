@@ -7,12 +7,13 @@ import { getFirestore, collection, addDoc, onSnapshot, query, orderBy, Timestamp
 // 1. Buka console.firebase.google.com
 // 2. Buat Project -> Project Settings -> General -> Your apps -> Config
 const firebaseConfig = {
-  apiKey: "API_KEY_ANDA_DISINI", // Ganti dengan API Key
-  authDomain: "PROJECT_ID.firebaseapp.com",
-  projectId: "PROJECT_ID",
-  storageBucket: "PROJECT_ID.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyAwT9rqSKm7CHlry-RUgMyQjeWtRsnt_P0",
+  authDomain: "wedding-rifa-fariz.firebaseapp.com",
+  projectId: "wedding-rifa-fariz",
+  storageBucket: "wedding-rifa-fariz.firebasestorage.app",
+  messagingSenderId: "605039664874",
+  appId: "1:605039664874:web:93029cca5e8577b01ac193",
+  measurementId: "G-1VXCG55LGK"
 };
 
 // Deteksi apakah user sudah mengganti config default
