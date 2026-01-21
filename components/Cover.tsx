@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { MailOpen } from 'lucide-react';
 import { Ornament } from './Ornament';
@@ -9,6 +9,18 @@ interface CoverProps {
 }
 
 export const Cover: React.FC<CoverProps> = ({ guestName, onOpen }) => {
+  const [displayName, setDisplayName] = useState(guestName);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const to = params.get('to');
+    if (to) {
+      setDisplayName(decodeURIComponent(to));
+    } else {
+      setDisplayName(guestName);
+    }
+  }, [guestName]);
+
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#BDE8F5] text-white text-center p-6 bg-cover bg-center"
       style={{ backgroundImage: 'linear-gradient(rgba(189, 232, 245, 0.85), rgba(189, 232, 245, 0.85)), url("/images/blue-rose-bg.png")' }}>
@@ -37,7 +49,7 @@ export const Cover: React.FC<CoverProps> = ({ guestName, onOpen }) => {
         <div className="mt-auto mb-6 w-full max-w-xs">
           <p className="text-sm font-sans text-[#0F2854] mb-3 font-medium">Kepada Yth. Bapak/Ibu/Saudara/i</p>
           <div className="bg-[#0F2854] text-white px-8 py-3 rounded-lg shadow-xl mb-4">
-            <h2 className="text-lg font-bold font-sans capitalize">{guestName}</h2>
+            <h2 className="text-lg font-bold font-sans capitalize">{displayName}</h2>
           </div>
 
           <p className="text-xs text-[#0F2854] italic mb-8 mx-auto leading-relaxed opacity-80">
