@@ -23,10 +23,11 @@ export const EventDetails: React.FC = () => {
             </div>
             <p className="text-sm text-[#0F2854] font-sans leading-relaxed">
               Jl. Merpati Tengah I no. 23 <br />
+              Pedurungan Tengah, Semarang<br />
               (Optik Mishbaach)
             </p>
             <a
-              href="https://maps.app.goo.gl/6UpZATPv79UM5Y2j6?g_st=aw"
+              href="https://maps.app.goo.gl/72qvLJoHowfE2wEk9"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-islamic-700/20 text-[#0F2854] rounded-full text-xs font-bold hover:bg-islamic-700/30 transition-colors"
@@ -47,11 +48,11 @@ export const EventDetails: React.FC = () => {
               <div className="flex items-center gap-1"><Clock size={14} /> 11:00 - 13.00 WIB</div>
             </div>
             <p className="text-sm text-[#0F2854] font-sans leading-relaxed">
-              Jl. Merpati Tengah I no. 23 <br />
+              Jl. Merpati Tengah I no. 23, <br />Pedurungan Tengah, Semarang <br />
               (Optik Mishbaach)
             </p>
             <a
-              href="https://maps.app.goo.gl/6UpZATPv79UM5Y2j6?g_st=aw"
+              href="https://maps.app.goo.gl/72qvLJoHowfE2wEk9"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-islamic-700/20 text-[#0F2854] rounded-full text-xs font-bold hover:bg-islamic-700/30 transition-colors"
