@@ -14,11 +14,19 @@ export const Footer: React.FC = () => {
         </div>
 
         <p className="font-sans text-sm leading-relaxed text-islamic-100 mb-8">
-          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai.
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami <br />apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai. <br /> Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.
         </p>
 
-        <p className="font-sans text-islamic-200 font-semibold mb-2">Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
-
+        <p className="font-sans text-islamic-200 font-semibold mb-3"><i>Wassalamu’alaikum Warahmatullahi Wabarakatuh</i></p>
+        <p className="font-sans text-sm leading-relaxed text-islamic-100 mt-4" style={{ fontSize: '9pt' }}>
+          Kami yang berbahagia,
+        </p>
+        <p className="font-sans text-sm leading-relaxed text-islamic-100 font-semibold" style={{ fontSize: '9pt' }}>
+          Kel. Bapak Muhamad Solihin, A.Md RO & Ibu Roudhotul Maghfiroh
+        </p>
+        <p className="font-sans text-sm leading-relaxed text-islamic-100 font-semibold" style={{ fontSize: '9pt' }}>
+          Kel. Bapak Muhammad Faruq (Alm.) & Ibu Fatimah
+        </p>
         <h2 className="font-script text-4xl text-[#FFF] mt-8 mb-12">Syarifah & Fariz</h2>
 
         <div className="border-t border-white/10 pt-6">

@@ -5,26 +5,30 @@ import { Calendar, Clock, MapPin } from 'lucide-react';
 
 export const EventDetails: React.FC = () => {
   return (
-    <div className="relative bg-[#BDE8F5] text-[#0F2854] py-12 bg-pattern">
+    <div className="relative bg-[#BDE8F5] text-[#0F2854] py-5 bg-pattern">
       <div className="absolute inset-0 bg-[#BDE8F5] z-0"></div>
       <div className="relative z-10">
         <Section>
-
+          <div className="my-8">
+            <img
+              src="/images/blue-rose-center.png"
+              alt="Rose Ornament"
+              className="w-24 h-24 object-contain mx-auto opacity-90 drop-shadow-md"
+            />
+          </div>
           <h2 className="font-script text-4xl text-center text-[#0F2854] mb-10">Rangkaian Acara</h2>
 
           {/* Akad Nikah */}
           <div className="bg-white/5 backdrop-blur-sm border border-[#0F2854]/10 rounded-2xl p-6 mb-6 text-center shadow-xl">
             <h3 className="font-arabic text-3xl text-[#0F2854] mb-2">Akad Nikah</h3>
-            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans">
-              <div className="flex items-center gap-1"><Calendar size={14} /> 28 Maret 2026</div>
+            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans font-semibold">
+              <div className="flex items-center gap-1"><Calendar size={14} /> Sabtu, 28 Maret 2026</div>
             </div>
-            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans">
+            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans font-semibold">
               <div className="flex items-center gap-1"><Clock size={14} /> 08:00 WIB</div>
             </div>
-            <p className="text-sm text-[#0F2854] font-sans leading-relaxed">
-              Jl. Merpati Tengah I no. 23 <br />
-              Pedurungan Tengah, Semarang<br />
-              (Optik Mishbaach)
+            <p className="text-sm text-[#0F2854] font-sans leading-relaxed font-semibold">
+              Bertempat di Optik Mishbaach <br />Jl. Merpati Tengah I no. 23 RT 04 RW 09, <br />Kel. Pedurungan Tengah, Semarang <br />
             </p>
             <a
               href="https://maps.app.goo.gl/72qvLJoHowfE2wEk9"
@@ -40,16 +44,23 @@ export const EventDetails: React.FC = () => {
 
           {/* Resepsi */}
           <div className="bg-white/5 backdrop-blur-sm border border-[#0F2854]/10 rounded-2xl p-6 text-center shadow-xl">
+            <div className="my-8">
+              <p className="text-sm text-[#0F2854] font-sans leading-relaxed text-center mb-4">
+                <i>Assalamu'alaikum Warahmatullahi Wabarakatuh</i>
+              </p>
+              <p className="text-sm text-[#0F2854] font-sans leading-relaxed text-center" style={{ fontSize: '10pt' }}>
+                Dengan memohon Rahmat dan Ridho Allah SWT, <br />kami mengundang Bapak/Ibu/Saudara/i <br />untuk menghadiri Resepsi Pernikahan putra-putri kami, <br /> yang InsyaAllah akan dilaksanakan pada:
+              </p>
+            </div>
             <h3 className="font-arabic text-3xl text-[#0F2854] mb-2">Resepsi</h3>
-            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans">
-              <div className="flex items-center gap-1"><Calendar size={14} /> 28 Maret 2026</div>
+            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans font-semibold">
+              <div className="flex items-center gap-1"><Calendar size={14} /> Sabtu, 28 Maret 2026</div>
             </div>
-            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans">
-              <div className="flex items-center gap-1"><Clock size={14} /> 11:00 - 13.00 WIB</div>
+            <div className="flex justify-center gap-4 text-sm text-[#0F2854] mb-4 font-sans font-semibold">
+              <div className="flex items-center gap-1"><Clock size={14} /> 11.00 - 13.00 WIB</div>
             </div>
-            <p className="text-sm text-[#0F2854] font-sans leading-relaxed">
-              Jl. Merpati Tengah I no. 23, <br />Pedurungan Tengah, Semarang <br />
-              (Optik Mishbaach)
+            <p className="text-sm text-[#0F2854] font-sans leading-relaxed font-semibold">
+              Bertempat di Optik Mishbaach <br />Jl. Merpati Tengah I no. 23 RT 04 RW 09, <br />Kel. Pedurungan Tengah, Semarang <br />
             </p>
             <a
               href="https://maps.app.goo.gl/72qvLJoHowfE2wEk9"
@@ -60,6 +71,7 @@ export const EventDetails: React.FC = () => {
               <MapPin size={14} /> Lihat Lokasi
             </a>
           </div>
+
         </Section>
       </div >
     </div >
